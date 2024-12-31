@@ -30,9 +30,9 @@ The tool supports the following command-line arguments:
 
 | Argument         | Description                                                                                              | Required | Default                |
 |-------------------|----------------------------------------------------------------------------------------------------------|----------|------------------------|
-| `-i [inputFilePath]` | Specifies the input prompt file path.                                                                  | **Yes**  | -                     |
+| `-i [inputFilePath]` | Specifies the input file path. This file should contain exported tasks                                | **Yes**  | -                     |
 | `-o [outputFilePath]` | Specifies the output file path. If not provided, defaults to the same path as the input file.         | No       | Same as input path     |
-| `-u [usersFilePath]` | Specifies a file containing user-specific prompts for improved suggestion generation. Optional.        | No       | `null`                |
+| `-u [usersFilePath]` | Specifies a file containing users information for improved suggestion generation. Optional.           | No       | `null`                |
 | `-c [culture]`      | Specifies the culture for localization (e.g., `en-US`, `pl-PL`). Optional.                              | No       | `pl-PL`               |
 
 ### Example Commands
@@ -50,9 +50,9 @@ The tool supports the following command-line arguments:
    ```
 
 3. **Use User Prompts**:  
-   Provide additional user-specific prompts to enhance suggestion quality:
+   Provide additional users information to enhance suggestion quality. If provided tasks will be assigned to users specified in this file:
    ```bash
-   AISuggestionsForTB -i input.txt -u users_prompts.txt
+   AISuggestionsForTB -i input.txt -u users.txt
    ```
 
 4. **Set Culture**:  
