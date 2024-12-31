@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AISuggestionsForTB": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    }
+  }
+}
