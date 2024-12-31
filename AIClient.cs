@@ -9,7 +9,7 @@ namespace AISuggestionsForTB
     {
         IChatClient Client { get; set; }
         public IConfiguration Configuration { get; }
-        public string Culture { get; set; } = "en-US";
+        public string Culture { get; set; } = "pl-PL";
 
         public AIClient(IChatClient client, IConfiguration configuration)
         {
