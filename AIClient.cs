@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using OfficeOpenXml;
 
-namespace AISuggestionsForTB
+namespace AITaskAnalyzer
 {
     public class AIClient
     {

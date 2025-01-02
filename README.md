@@ -1,12 +1,12 @@
-# AISuggestionsForTB
+# AITaskAnalyzer
 
-AISuggestionsForTB is a utility designed to enhance suggestions and provide AI-driven insights based on user prompts. This documentation will guide you through the configuration and usage of the tool.
+AITaskAnalyzer is a utility designed to enhance suggestions and provide AI-driven insights based on user prompts. This documentation will guide you through the configuration and usage of the tool.
 
 ---
 
 ## Configuration
 
-To configure AISuggestionsForTB, locate and modify the `appsettings.json` file. Below is a sample configuration:
+To configure AITaskAnalyzer, locate and modify the `appsettings.json` file. Below is a sample configuration:
 
 ```json
 {
@@ -40,23 +40,23 @@ The tool supports the following command-line arguments:
 1. **Basic Usage**:  
    Generate suggestions using an input file and save the results to the same location:
    ```bash
-   AISuggestionsForTB -i input.txt
+   AITaskAnalyzer -i input.txt
    ```
 
 2. **Specify Output File**:  
    Generate suggestions and save the results to a custom output file:
    ```bash
-   AISuggestionsForTB -i input.txt -o output.xlsx
+   AITaskAnalyzer -i input.txt -o output.xlsx
    ```
 
 3. **Use User Prompts**:  
    Provide additional users information to enhance suggestion quality. If provided tasks will be assigned to users specified in this file:
    ```bash
-   AISuggestionsForTB -i input.txt -u users.txt
+   AITaskAnalyzer -i input.txt -u users.txt
    ```
 
 4. **Set Culture**:  
    Specify a culture for deserializing numbers:
    ```bash
-   AISuggestionsForTB -i input.txt -c en-US
+   AITaskAnalyzer -i input.txt -c en-US
    ```

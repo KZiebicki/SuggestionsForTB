@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.AI;
 using OpenAI;
-using AISuggestionsForTB;
+using AITaskAnalyzer;
 using Microsoft.Extensions.Configuration;
 
 class Program
